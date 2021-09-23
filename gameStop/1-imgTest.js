@@ -1,13 +1,15 @@
 import { Selector } from 'testcafe';
 
+// load GameStop homepage
 fixture `My GME Fixture`
     .page `https://www.gamestop.com/`;
 
-const imageContainer = Selector('#image-container');
+// Check for presence of NBA 2K image
+test('2K Img Test', async t => {
+    const img2k = Selector('img').withAttribute('src', 'https://media.gamestop.com/i/gamestop/NBA2K22_596x400_HPHero_D.webp');
 
-test('My First GME Test', async t => {
-    // Check 2k image
     await t
         .maximizeWindow()
-        .expect(imageContainer.exists).notOk();
+        .expect(img2k.exists).ok()
+        .expect(img2k.visible).ok();
 });
