@@ -6,10 +6,12 @@ fixture `My GME Fixture`
 
 // Check for presence of NBA 2K image
 test('2K Img Test', async t => {
-    const img2k = Selector('img').withAttribute('src', 'https://media.gamestop.com/i/gamestop/NBA2K22_596x400_HPHero_D.webp');
+    const gmeImg = Selector('img').withAttribute('class', 'nav-logo').withAttribute('src', '/on/demandware.static/Site…default/dwabc0b3f2/images/svg-icons/logo-gs-2.svg');
+    // const img2k = Selector('#image-container');
 
     await t
         .maximizeWindow()
-        .expect(img2k.exists).ok()
-        .expect(img2k.visible).ok();
+        .expect(gmeImg.exists).ok();
+        // .expect(img2k.visible).ok();
 });
+
