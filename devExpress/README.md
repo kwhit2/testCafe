@@ -1,5 +1,5 @@
 # DevExpress
-- Practicing automated testing with TestCafe and JavaScript on [devexpress](http://devexpress.github.io/testcafe/example)
+- Practicing automated testing with TestCafe and JavaScript on [DevExpress](http://devexpress.github.io/testcafe/example)
 
 ## Task Descriptions
 - 1-emptyTest.js : file.js bones setup for testing with TestCafe.
