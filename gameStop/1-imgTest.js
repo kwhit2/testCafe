@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-// load GameStop homepage
+// Load GameStop homepage
 fixture `My GME Fixture`
     .page `https://www.gamestop.com/`;
 
@@ -10,5 +10,5 @@ test('GameStop Logo Test', async t => {
 
     await t
         .maximizeWindow()
-        .expect(gmeImg.exists).ok();
+        .expect(gmeImg.exists).ok()
 });
