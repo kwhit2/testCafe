@@ -42,4 +42,4 @@ fixture `Getting Started`
 testcafe chrome 3-fifa22.js --skip-js-errors
 ```
 
-### Due to ever upgrading and changing webpages some of the tests within this repo may no longer execute as expected. Thank you!
+### * Due to ever upgrading and changing webpages some of the tests within this repo may no longer execute as expected. Thank you!
