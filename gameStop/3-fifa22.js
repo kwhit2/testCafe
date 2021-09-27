@@ -14,13 +14,13 @@ fixture `My GME Fixture`
 */
 test('Add FIFA 22 to shopping cart', async t => {
     const searchBar = Selector('input').withAttribute('type', 'search').withAttribute('name', 'q');
-    const fifaSearchResultPs5 = Selector('span').withText("5");
+    const fifaSearchResultPs5 = Selector('span').withText(" 22");
     const fifaPs5 = Selector('a').withAttribute('title', 'FIFA 22 - PlayStation 5');
     const preOrder = Selector('button').withAttribute('id', 'add-to-cart');
 
     await t
         .maximizeWindow()
-        .typeText('input[name="q"]', 'fifa 22 ps')
+        .typeText('input[name="q"]', 'fifa')
         .click(fifaSearchResultPs5)
         .click('a[title="FIFA 22 - PlayStation 5"]')
         .click(preOrder);
