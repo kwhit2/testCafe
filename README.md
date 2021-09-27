@@ -22,6 +22,7 @@ $ npm install -g testcafe
 $ testcafe -v
 1.16.0
 ```
+
     - Make a .js file
     - Import the testcafe module
     ``` import { Selector } from 'testcafe'; ```
