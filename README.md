@@ -37,7 +37,7 @@ fixture `Getting Started`
     .page `http://webpage.webpage.com/testing/example`;
 ```
 - Write test code in JavaScript
-- When ready run test by calling testcafe, declaring testing platform/browser, specify test file(s) to run, add --skip-js-errors to make life easier
+- When ready run a test or tests by calling testcafe, declaring testing platform/browser, specify test file(s) to run, add --skip-js-errors to make life easier
 ```
 testcafe chrome 3-fifa22.js --skip-js-errors
 ```
