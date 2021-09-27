@@ -39,7 +39,7 @@ fixture `Getting Started`
 - Write test code in JavaScript
 - When ready run a test or tests by calling testcafe, declaring testing platform/browser, specify test file(s) to run, add --skip-js-errors to make life easier
 ```
-testcafe chrome 3-fifa22.js --skip-js-errors
+testcafe chrome <your-file>.js --skip-js-errors
 ```
 
 ### * Due to ever upgrading and changing webpages some of the tests within this repo may no longer execute as expected. Thank you!
