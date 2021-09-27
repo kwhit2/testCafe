@@ -7,14 +7,14 @@
     - In your 'Downloads' folder double click the downloaded package (Windows download = 'node-v14.17.6-x64.msi') and follow the steps to install (I made no modifications to the suggested prompts during the installation process)
     - Search your computer for 'Node.js' click and drag 'Node.js' into your PowerShell Terminal (I dropped 'Node.js' into the intergrated terminal of VSCode that is running PowerShell)
     - The below commands will display your installed Node.js and npm versions
-    ```
-    $ node -v
-    v14.17.6
-    ```
-    ```
-    $ npm -v
-    6.14.15
-    ```
+```
+$ node -v
+v14.17.6
+```
+```
+$ npm -v
+6.14.15
+```
     
 - [TestCafe](https://testcafe.io/documentation/402635/getting-started) <- Very helpful docs!
 ```
