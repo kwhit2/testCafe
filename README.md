@@ -32,6 +32,10 @@ $ testcafe -v
 import { Selector } from 'testcafe';
 ```
 - Declare fixture/webpage
+```
+fixture `Getting Started`
+    .page `http://webpage.webpage.com/testing/example`;
+```
 - Write test code in JavaScript
 - When ready run test by calling testcafe, declaring testing platform/browser, specify test file(s) to run, add --skip-js-errors to make life easier
 ```
