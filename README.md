@@ -17,11 +17,9 @@ $ npm -v
 ```
     
 - [TestCafe](https://testcafe.io/documentation/402635/getting-started) <- Very helpful docs!
-```
-$ npm install -g testcafe
+```$ npm install -g testcafe
 $ testcafe -v
-1.16.0
-```
+1.16.0```
 
     - Make a .js file
     - Import the testcafe module
