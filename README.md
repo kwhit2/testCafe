@@ -43,3 +43,5 @@ testcafe chrome <your-file>.js --skip-js-errors
 ```
 
 ### * Due to ever upgrading and changing webpages some of the tests within this repo may no longer execute as expected. Thank you!
+
+![TestCafe-Demo](./gif-readme/testCafe-GME-FIFA.gif)
